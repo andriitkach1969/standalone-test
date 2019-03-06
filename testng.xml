@@ -2,7 +2,7 @@
 <suite name="SmokeTest">
     <test name="Login" preserve-order="true">
         <classes>
-            <class name="com.selenide.test.tests.QuickTests"/>
+            <class name="com.selenide.test.tests.quickTest"/>
         </classes>
     </test>
 

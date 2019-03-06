@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1551889234373" stop="1551889295532" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : standalone-test</name>
+    <title>Default Suite : standalone-test</title>
+    <test-cases>
+        <test-case start="1551889234679" stop="1551889295283" status="passed">
+            <name>CheckHeaderMenu on [quickTest passed=0 failed=0 skipped=0]</name>
+            <title>Check header menu elements</title>
+            <description type="text">1.1 Open start page. Check out header menu elements.</description>
+            <steps>
+                <step start="1551889234741" stop="1551889239116" status="passed">
+                    <name>setBrowser</name>
+                    <title>Инициализация браузера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889239180" stop="1551889244093" status="passed">
+                    <name>openURL</name>
+                    <title>Init URL page, Load and check</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889244096" stop="1551889246660" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889246662" stop="1551889249157" status="passed">
+                    <name>clickHeaderProjects</name>
+                    <title>header menu Projects. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889249158" stop="1551889250786" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889250788" stop="1551889253547" status="passed">
+                    <name>clickHeaderServices</name>
+                    <title>header menu Services. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889253549" stop="1551889255635" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889255636" stop="1551889256499" status="passed">
+                    <name>clickHeaderIndustries</name>
+                    <title>header menu Industries. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889256500" stop="1551889259490" status="passed">
+                    <name>clickHeaderLogistics</name>
+                    <title>header sub-menu Logistics. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889259492" stop="1551889259704" status="passed">
+                    <name>clickHeaderIndustries</name>
+                    <title>header menu Industries. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889259706" stop="1551889263015" status="passed">
+                    <name>clickHeaderTravel</name>
+                    <title>header sub-menu Travel. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889263016" stop="1551889263239" status="passed">
+                    <name>clickHeaderIndustries</name>
+                    <title>header menu Industries. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889263241" stop="1551889265616" status="passed">
+                    <name>clickHeaderHealthcare</name>
+                    <title>header sub-menu Healthcare. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889265617" stop="1551889265943" status="passed">
+                    <name>clickHeaderIndustries</name>
+                    <title>header menu Industries. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889265945" stop="1551889268913" status="passed">
+                    <name>clickHeaderEcommerce</name>
+                    <title>header sub-menu E-Commerce. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889268914" stop="1551889271096" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889271103" stop="1551889274800" status="passed">
+                    <name>clickHeaderTeam</name>
+                    <title>header menu Team. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889274801" stop="1551889276599" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889276600" stop="1551889278833" status="passed">
+                    <name>clickHeaderBlog</name>
+                    <title>header menu Blog. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889278834" stop="1551889281081" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889281086" stop="1551889283085" status="passed">
+                    <name>clickHeaderOpensource</name>
+                    <title>header menu Open Source. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889283086" stop="1551889286408" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889286417" stop="1551889287679" status="passed">
+                    <name>clickHeaderCareers</name>
+                    <title>header menu Careers. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889287680" stop="1551889289415" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889289417" stop="1551889292466" status="passed">
+                    <name>clickHeaderContacts</name>
+                    <title>header menu Contacts. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1551889292468" stop="1551889292689" status="passed">
+                    <name>clickHeaderLogo</name>
+                    <title>header menu LOGO. Check and click on it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page screeshot" source="b936dec7-e979-427e-8e71-bdb18435c213-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="standalone-test"/>
+                <label name="testClass" value="com.selenide.test.tests.quickTest"/>
+                <label name="testMethod" value="CheckHeaderMenu"/>
+                <label name="severity" value="critical"/>
+                <label name="story" value="Check header menu elements"/>
+                <label name="feature" value="Quick tests for checking out header menu"/>
+                <label name="host" value="andrii"/>
+                <label name="thread" value="29839@andrii.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
