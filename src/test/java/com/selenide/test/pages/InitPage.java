@@ -6,6 +6,8 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.page;
 
 public class InitPage {
     /**
@@ -91,6 +93,20 @@ public class InitPage {
      */
     @FindBy(xpath = "//nav[@class='main-nav']//a[contains(@href, 'promotion')]")
     public SelenideElement headerAboutUs;
+
+    /**
+     *
+     */
+    @FindBy(xpath = "//button[contains(text(),'Start a project')]")
+    public SelenideElement btnStartProject;
+
+    @Step("Init URL page, Load and check")
+    public InitPage openURL() {
+        open(System.getProperty("url"), InitPage.class);
+        page(InitPage.class).btnStartProject.waitUntil(visible.because("button Start Project is not visible during 10 sec"), 10000);
+        return page(InitPage.class);
+    }
+
 
     @Step("header menu LOGO. Check and click on it")
     public void clickHeaderLogo() {

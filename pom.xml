@@ -179,7 +179,7 @@
                             </property>
                         </properties>
                         <systemPropertyVariables>
-                            <url>http://master.np-lc.stag.stfalcon.com</url>
+                            <url>https://stfalcon.com</url>
                         </systemPropertyVariables>
                     </configuration>
                     <dependencies>
